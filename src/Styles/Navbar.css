@@ -1,0 +1,31 @@
+/* Navbar styling */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  border-bottom: 1px solid #D9d9d9;
+  padding: 10px 20px;
+  color: white;
+  z-index: 10;
+}
+
+/* Logo container styling */
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+/* SVG logo styling */
+.logo-svg {
+  width: 24px; /* Adjust the width as needed */
+  height: 24px; /* Adjust the height as needed */
+  margin-right: 10px; /* Adjust the margin as needed to separate the logo from text */
+}
+
+/* Logo text styling */
+.logo-text {
+  font-size: 20px;
+  
+}

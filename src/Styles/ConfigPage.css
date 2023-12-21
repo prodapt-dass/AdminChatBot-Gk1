@@ -1,0 +1,224 @@
+/* GenAiRecipes.css */
+
+body {
+    background-color: rgb(16, 15, 53);
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+}
+
+.gen-ai-recipes-container {
+    position: fixed;
+    min-height: 100vh;
+    background-color: rgb(16, 15, 53);
+    color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 0;
+    top:2rem;
+}
+
+.gen-ai-recipes-flex {
+    display: flex;
+}
+
+.gen-ai-recipes-main {
+    width: 75%;
+    padding: 0.2rem;
+}
+
+.gen-ai-recipes-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.gen-ai-recipes-description {
+    font-size: 1rem;
+}
+
+.gen-ai-recipes-section1 {
+    margin-top: 1.5rem;
+    overflow: auto;
+    height: 70vh;
+}
+
+.gen-ai-recipes-section2 {
+    margin-top: 1.5rem;
+    overflow: auto;
+    height: 82vh;
+}
+
+.gen-ai-recipes-section2::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    background-color: #F5F5F5;
+}
+
+
+.gen-ai-recipes-section2::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+    background-color: #F5F5F5;
+}
+
+.gen-ai-recipes-section2::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 0 6px rgba(110, 108, 108, 0.3);
+    background-color: transparent;
+}
+
+
+.gen-ai-recipes-section1::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    background-color: #F5F5F5;
+}
+
+.gen-ai-recipes-section1::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+    background-color: #F5F5F5;
+}
+
+.gen-ai-recipes-section1::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 0 6px rgba(110, 108, 108, 0.3);
+    background-color: transparent;
+}
+
+.gen-ai-recipes-subsection-1 {
+    margin-bottom: 1.5rem;
+}
+
+.gen-ai-recipes-subsection-title {
+    display: flex;
+    align-items: center;
+}
+
+.gen-ai-recipes-icon {
+    margin-right: 0.5rem;
+}
+
+.gen-ai-recipes-subtitle-1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:blue;
+}
+.gen-ai-recipes-subtitle-2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+    color:green;
+}
+
+.gen-ai-recipes-text {
+    font-size: 1rem;
+}
+
+.gen-ai-recipes-benefits {
+    width: 25%;
+    padding-left: 2rem;
+    border-left: 1px solid #666;
+}
+
+.gen-ai-recipes-label {
+    font-size: 0.875rem;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+}
+
+.gen-ai-recipes-select {
+    background-color: #333;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    color: #f9f9f9;
+}
+
+.brain-icon {
+    color: red;
+}
+
+.cogs-icon {
+    color: yellow;
+}
+
+.database-icon {
+    color: green;
+}
+
+
+.gen-ai-recipes-selectors {
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    align-items: start;
+    padding-right: 6px;
+}
+
+.gen-ai-recipes-selectors1 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.gen-ai-recipes-selectors2 {
+    display: flex;
+    flex-direction: column;
+    width: 68%;
+}
+.gen-ai-recipes-subsection-1 {
+    background-color: #333;
+    border: 2px solid blue;
+    padding: 8px;
+    color: rgb(189, 189, 189);
+    border-radius: 5px;
+}
+
+.gen-ai-recipes-subsection-2 {
+    background-color: #333;
+    border: 2px solid green;
+    padding: 8px;
+    color: rgb(189, 189, 189);
+    border-radius: 5px;
+}
+
+
+.gen-ai-recipes-divider {
+  border-top: 1px dashed #D9d9d9;
+  margin: 20px 0;
+}
+
+.green-box {
+  width: 20px;
+  height: 20px;
+  background-color: green;
+  margin-right: 10px; 
+  display: inline-block;
+}
+/* GenAiRecipes.css */
+
+/* ... (your existing styles) */
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #111;
+  color: white;
+  padding: 10px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.start-cooking-button {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}

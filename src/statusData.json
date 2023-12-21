@@ -1,0 +1,33 @@
+{
+    "data": [
+      {
+        "number": "C001",
+        "status": "Disconnect successfully"
+      },
+      {
+        "number": "C002",
+        "status": "Already disconnected"
+      },
+      {
+        "number": "C003",
+        "status": "Disconnect successfully"
+      },
+      {
+        "number": "C005",
+        "status": "No data found"
+      },
+      {
+        "number": "D001",
+        "status": "Disconnect successfully"
+      },
+      {
+        "number": "D002",
+        "status": "No data found"
+      },
+      {
+        "number": "D004",
+        "status": "Already disconnected"
+      }
+    ]
+  }
+  

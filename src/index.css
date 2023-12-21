@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: aqua;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* style.css */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.bg-gray-900 {
+  background-color: #1a202c;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+/* Add other Tailwind styles as needed */
